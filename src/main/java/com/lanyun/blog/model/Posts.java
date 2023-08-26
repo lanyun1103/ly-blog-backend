@@ -1,5 +1,7 @@
 package com.lanyun.blog.model;
 
+import lombok.Data;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -7,6 +9,7 @@ import java.util.Date;
  * 
  * @TableName posts
  */
+@Data
 public class Posts {
     /**
      *
